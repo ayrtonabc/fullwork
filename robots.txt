@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fullwork.pl/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.config$
+
+# Allow important pages
+Allow: /produkcja-miesa
+Allow: /przetworzenie-owocow
+Allow: /przemysl-meblarski
+Allow: /logistyka
+Allow: /budownictwo
+Allow: /produkcja-przemyslowa
+Allow: /zarzadzanie-talentami
+Allow: /legalizacja-pobytu
+Allow: /integracja-zawodowa
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
